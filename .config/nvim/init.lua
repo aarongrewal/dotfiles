@@ -10,4 +10,5 @@ require "user.gitsigns"
 require "user.toggleterm"
 require "user.lualine"
 require "user.comment"
+require "user.autopairs"
 
