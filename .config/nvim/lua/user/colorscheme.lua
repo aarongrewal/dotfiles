@@ -1,7 +1,7 @@
-local colorscheme = "alabaster_dark"
-
-local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
-if not status_ok then
-  vim.notify("colorscheme " .. colorscheme .. " not found!")
-  return
-end
+require("github-theme").setup({
+  theme_style = "dark_default",
+  comment_style = "NONE",
+  keyword_style = "NONE",
+  function_style = "NONE",
+  variable_style = "NONE"
+})

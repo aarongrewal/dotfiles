@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/Users/aarongrewal/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["alabaster_dark.nvim"] = {
-    loaded = true,
-    path = "/Users/aarongrewal/.local/share/nvim/site/pack/packer/start/alabaster_dark.nvim",
-    url = "https://github.com/aarongrewal/alabaster_dark.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/aarongrewal/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -113,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/aarongrewal/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/Users/aarongrewal/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/aarongrewal/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
     loaded = true,

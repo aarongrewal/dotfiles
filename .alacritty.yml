@@ -10,41 +10,35 @@ mouse:
       program: open
     mods: Command
 
-# Alabaster Dark colors
+# github Alacritty Colors
 colors:
+  # Default colors
   primary:
-    background: '#0e1415'
-    foreground: '#cecece'
-
-  # Cursor colors
-  cursor:
-    text:   '#0e1415'
-    cursor: '#cd974b'
-
-  # Selection colors
-  selection:
-    text:       '#000000'
-    background: '#293334'
+    background: '0x0d1117'
+    foreground: '0xb3b1ad'
 
   # Normal colors
   normal:
-    black:   '#000000'
-    red:     '#d2322d'
-    green:   '#6abf40'
-    yellow:  '#cd974b'
-    blue:    '#217EBC'
-    magenta: '#9B3596'
-    cyan:    '#178F79'
-    white:   '#cecece'
+    black:   '0x484f58'
+    red:     '0xff7b72'
+    green:   '0x3fb950'
+    yellow:  '0xd29922'
+    blue:    '0x58a6ff'
+    magenta: '0xbc8cff'
+    cyan:    '0x39c5cf'
+    white:   '0xb1bac4'
 
   # Bright colors
   bright:
-    black:   '#333333'
-    red:     '#c33c33'
-    green:   '#95cb82'
-    yellow:  '#dfdf8e'
-    blue:    '#71aed7'
-    magenta: '#cc8bc9'
-    cyan:    '#47BEA9'
-    white:   '#ffffff'
+    black:   '0x6e7681'
+    red:     '0xffa198'
+    green:   '0x56d364'
+    yellow:  '0xe3b341'
+    blue:    '0x79c0ff'
+    magenta: '0xd2a8ff'
+    cyan:    '0x56d4dd'
+    white:   '0xf0f6fc'
 
+  indexed_colors:
+    - { index: 16, color: '0xd18616' }
+    - { index: 17, color: '0xffa198' }

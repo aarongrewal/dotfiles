@@ -49,7 +49,7 @@ return packer.startup(function(use)
   }
 
   -- Colorscheme
-  use "aarongrewal/alabaster_dark.nvim"
+  use "aarongrewal/github-nvim-theme"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
